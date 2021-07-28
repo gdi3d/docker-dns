@@ -1,0 +1,12 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  svc_frontend:
+    image: busybox:latest
+    command: top
+  svc_database:
+    image: busybox:latest
+    command: top
+  svc_backend:
+    image: busybox:latest
+    command: top
+
